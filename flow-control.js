@@ -13,6 +13,12 @@ function teenager(age) {
 }
 
 function ageChecker(age) {
+   var x = age;
+ if (x > 12 && x < 20) {
+   return "You are a teenager!"}
+  else if (x <= 12) {
+    return "You are a kid"}
+    else return
 
 }
 
